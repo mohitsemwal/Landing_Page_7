@@ -1,0 +1,98 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url(https://images.pexels.com/photos/28061/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    color: white;
+}
+.left{
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 20px;
+    display: flex;
+    align-items: center;
+}
+.left>img{
+    width: 68px;
+}
+.left>div{
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.mid{
+    display: block;
+    width: 33%;
+    margin: 20px auto;
+    width: 700px;
+}
+.right{
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    display: inline-block;
+
+}
+.btn{
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 16px 17px;
+    font-size: 15px;
+    border: 2px solid gray;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: orangered;
+}
+
+.navbar{
+    display: inline-block
+}
+.navbar>li{
+    display: inline-block;
+    font-size: 22px;
+    
+}
+.navbar>li>a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 26px;
+    
+}
+.navbar>li>a:hover, .navbar>li>a.active {
+   text-decoration: underline;
+   color: gray;
+}
+.container{
+    
+    margin: 50px 100px;
+    padding: 54px;
+    width: 40%;
+    border-radius: 4px;
+}.formGroup>input{
+    display: block;
+    text-align: center;
+    margin: 19px 0px;
+    padding: 10px;
+    width: 250px;
+    border: 2px solid black;
+    font-size: 20px;
+    border-radius: 8px;
+}
+.formGroup>{
+    display: block;
+    width: 20%;
+}
+.quotes{
+    
+    position: absolute;
+    right: 60px;
+    top: 168px;
+    display: inline-block;
+}
+.quotes>p{
+    width: 428px;
+    font-size: 48px;
+}
